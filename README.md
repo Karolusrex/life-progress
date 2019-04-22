@@ -18,3 +18,6 @@ Then,
 
 
 The app should be running on port 3000.
+
+
+This project was made with `create-react-app`.
