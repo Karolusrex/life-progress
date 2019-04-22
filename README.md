@@ -17,4 +17,4 @@ Then,
 `yarn start`
 
 
-The app is running on port 3000.
+The app should be running on port 3000.
