@@ -1,11 +1,11 @@
 # Life events
 
-This demo app can help you to keep track of different life and their durations.
+This demo app can help you to keep track of different life episodes.
 
-It's more cool for bigger screen sizes than mobile, although it does work for mobile too.
+It works best for bigger screens, although it does work for mobile too.
 
 
-## Get up and running
+## Get started
 
 First, install `yarn` and `npm` if you don't have them installed already.
 
