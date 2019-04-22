@@ -1,0 +1,22 @@
+.EventsContainer {
+    max-width: 920px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.SortingControl {
+    display: flex;
+    align-items: center;
+}
+
+.SortingControl > div {
+    margin-left: 4px;
+}
+
+.AddEvent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+

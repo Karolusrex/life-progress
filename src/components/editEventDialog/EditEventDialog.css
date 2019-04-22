@@ -1,0 +1,10 @@
+.AgeControl {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    font-size: 14px;
+}
+
+.Dialog h2 {
+    margin-bottom: 32px;
+}

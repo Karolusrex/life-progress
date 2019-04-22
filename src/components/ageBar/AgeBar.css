@@ -1,0 +1,32 @@
+.AgeBar {
+    margin-left: 4px;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.AgeBarContent {
+    flex: auto;
+    margin-bottom: 2px;
+    background: linear-gradient(to right, #63ef4852 0%, #8764a7 100%);
+}
+
+@media screen and (max-width: 576px) {
+    .AgeBar {
+        display: none;
+    }
+}
+
+.Numbers {
+    flex: auto;
+    position: relative;
+}
+
+.AgeBar .Number {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    /* Center the numbers around their anchor point */
+    transform: translate(-50%, 0);
+}
