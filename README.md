@@ -7,17 +7,15 @@ It works best for bigger screens, although it does work for mobile too.
 
 ## Get started
 
-First, install `yarn` and `npm` if you don't have them installed already.
+First, install `npm` and `node` if you don't have them installed already.
 
 
 Then,
 
-`yarn`
+`npm install`
 
-`yarn start`
-
-
-The app should be running on port 3000.
+`npm run start`
 
 
-This project was made with `create-react-app`.
+The app should be running on port 3001.
+

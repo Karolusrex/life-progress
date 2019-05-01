@@ -5,7 +5,7 @@ import EventList from '../../components/eventList/EventList';
 import EditEventDialog from '../../components/editEventDialog/EditEventDialog';
 import Button from '../../components/button/Button';
 import { ageSortOptions, alphabeticSortOptions } from './sortingOptions';
-import './EventsContainer.css';
+import './EventsContainer.scss';
 
 const placeholderEvent = {
   name: 'Pottery course',

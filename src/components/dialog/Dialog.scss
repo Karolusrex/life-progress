@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .Dialog {
     position: relative;
     min-width:50%;
@@ -5,7 +7,7 @@
     padding: 32px;
     background: #fff;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 18px 1px;
+    box-shadow: $dark-gray 2px 2px 18px 1px;
   }
   
   .DialogBackground {
@@ -18,6 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: $dark-gray;
   }
 

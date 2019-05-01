@@ -1,0 +1,49 @@
+@import "../../styles/variables.scss";
+@import "../../styles/grid.scss";
+
+.EventListItem {
+  display: flex;
+  justify-content: space-between;
+  min-height: 32px;
+  padding: 8px;
+  border-bottom: 1px solid $light-gray;
+  cursor: pointer;
+}
+
+.Details {
+  display: flex;
+  flex: 3 1 0px;
+  align-items: center;
+}
+
+.EventListItem:hover {
+  text-decoration: underline;
+}
+
+.EventListItem:first-child {
+  margin-top: 32px;
+  border-top: 1px solid $light-gray;
+}
+
+.RightControl .Description {
+  flex-basis: 70px;
+  margin: auto 12px auto 0;
+  @include phone-screen {
+    justify-content: flex-end;
+  }
+}
+
+.EventListItem .RightControl {
+  display: flex;
+  flex: 4 40 200px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  @include phone-screen {
+    flex: auto;
+  }
+}
+
+.Category {
+  margin: 0 12px 0 0;
+  font-size: 16px;
+}

@@ -1,0 +1,44 @@
+@import "../../styles/variables.scss";
+
+.Button.Warning {
+  background-color: $warning-color;
+}
+
+.Button.Primary,
+.Button.Warning {
+  color: white;
+  text-shadow: 1px 1px 2px $gray;
+}
+
+.Button.Primary {
+  background-color: $theme-color;
+}
+
+.Button {
+  min-width: 64px;
+  height: 32px;
+  margin: 0 4px;
+  padding: 4px 16px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid $light-gray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.Button::-moz-focus-inner {
+  border: 0;
+  outline: 0;
+}
+
+button.Button:focus {
+  border-width: 2px;
+  border-color: $theme-color;
+  outline: none;
+}
+
+.Button.Primary:focus {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: white;
+}

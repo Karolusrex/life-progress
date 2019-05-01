@@ -1,6 +1,6 @@
 import React from 'react';
 import EventsContainer from './pages/eventsContainer/EventsContainer';
-import './Root.css';
+import './Root.scss';
 
 const app = () => (
   <div className="Root">

@@ -1,7 +1,7 @@
 import propTypes from 'prop-types';
 import React from 'react';
 import AgeBar from '../ageBar/AgeBar';
-import './EventList.css';
+import './EventList.scss';
 
 const EventList = props => {
   const { events } = props;

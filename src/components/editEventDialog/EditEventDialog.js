@@ -4,7 +4,7 @@ import Dialog from '../dialog/Dialog';
 import InputField from '../inputField/InputField';
 import Button from '../button/Button';
 import Select from '../select/Select';
-import './EditEventDialog.css';
+import './EditEventDialog.scss';
 
 /**
  * Component for entering data about an event. Can act either in "edit mode" or in "add mode"

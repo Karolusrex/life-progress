@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import './Select.css';
+import './Select.scss';
 
 const Select = props => {
   const { onChange, items = [] } = props;

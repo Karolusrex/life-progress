@@ -3,7 +3,6 @@ module.exports = {
   root: true,
   plugins: ["prettier"],
   env: {
-    jest: true,
     browser: true
   },
   settings: {

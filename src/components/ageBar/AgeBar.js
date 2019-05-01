@@ -1,6 +1,6 @@
 import propTypes from 'prop-types';
 import React from 'react';
-import './AgeBar.css';
+import './AgeBar.scss';
 
 // This rendering might be needed to be ported to SVG (and perhaps d3) if the requirements get more complicated
 const AgeBar = ({ min, max, globalMin, globalMax }) => {

@@ -1,0 +1,52 @@
+/* Reboot/reset/normalize stuff */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    margin-top: 0px;
+  }
+  
+  
+  /* Hide number spin selector */
+  
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+  
+  /* Util classes */
+  .pull-right {
+    float: right;
+  }
+  
+  /* Global styles */
+  
+  h1 {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  label {
+    margin: 16px 0;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+  }
+  
+  

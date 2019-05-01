@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import './Dialog.css';
+import './Dialog.scss';
 
 const Dialog = props => (
   <div className="DialogBackground">

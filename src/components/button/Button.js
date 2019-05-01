@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import './Button.css';
+import './Button.scss';
 
 const Button = props => {
   const { children, primary, warning, ...propsToPass } = props;
@@ -11,7 +11,7 @@ const Button = props => {
   );
 };
 Button.propTypes = {
-  children: propTypes.array,
+  children: propTypes.node,
   primary: propTypes.bool,
   warning: propTypes.bool,
 };

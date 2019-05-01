@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import './InputField.css';
+import './InputField.scss';
 
 const InputField = props => {
   const { label, ...propsToPass } = props;
@@ -26,6 +26,6 @@ const InputField = props => {
 
 InputField.propTypes = {
   label: propTypes.string,
-  onChange: propTypes.function,
+  onChange: propTypes.func,
 };
 export default InputField;
